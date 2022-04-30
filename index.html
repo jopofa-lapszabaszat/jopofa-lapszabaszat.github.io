@@ -1,3 +1,7 @@
+---
+layout: null
+---
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -46,7 +50,8 @@
                 <div class="col-lg-8">
                     <h2>Szolgáltatásaink</h2>
                     <br />
-                    <p class="lead">Szolgáltatási körünket úgy alakítottuk ki, hogy ügyfeleink minden igényét kielégítsük.</p>
+                    <p class="lead">Szolgáltatási körünket úgy alakítottuk ki, hogy ügyfeleink minden igényét
+                        kielégítsük.</p>
                     <br />
                     <ul>
                         <li>Lapszabászat</li>
@@ -78,7 +83,19 @@
             <div class="row gx-4 justify-content-center">
                 <div class="col-lg-8">
                     <h2>Munkáink</h2>
-                    
+                    <br/>
+                    <div class="row-fluid">
+                        <div class="col-lg-12 col-md-10 ">
+                            <div class="cover-container">
+
+                                {% assign image_files = site.static_files | where: "image", true %}
+                                {% for image in image_files %}
+                                  <div class="cover-item" style="background-image: url('{{ image.path }}')"></div>
+                                {% endfor %}
+
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
