@@ -1,6 +1,6 @@
-baseurl: '/'
+baseurl: "/"
 permalink: pretty
-title: 'JópoFa Lapszabászat és Bútorasztalos Műhely'
+title: "JópoFa Lapszabászat és Bútorasztalos Műhely"
 
 logo:
   mobile: "images/logo/logo.jpg"
