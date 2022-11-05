@@ -1,0 +1,42 @@
+---
+layout: default
+---
+
+<div class="container pb-6 pt-6 pt-md-10 pb-md-10">
+  <div class="row justify-content-start">
+    <div class="col-12 col-md-8">
+      <div class="service service-single">
+        <h1 class="title">{{page.title}}</h1>
+        <div class="content">{{content}}</div>
+        <br>
+        <br>
+        {% assign imgSubFolder = page.id | remove: page.dir %}
+        {% assign imgFolder = imgSubFolder | prepend: "/images" %}
+        {% assign count = 0 %}
+
+        <div class="row">
+          {% for img in site.static_files %}
+          {% if img.path contains imgFolder %}
+
+          <div class="column">
+            <div class="thumbnail">
+              <a href="{{ img.path }}">
+                <img src="{{ img.path }}" style="width: 150px; height: 150px; object-fit: cover; object-position: 25% 25%; ">
+              </a>
+            </div>
+          </div>
+
+          {% assign verticalPosition = count | modulo: 3 %}
+          {% if verticalPosition == 2 %}
+        </div>
+        <div class="row">
+          {% endif %}
+
+          {% assign count = count | plus: 1 %}
+          {% endif %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
