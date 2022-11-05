@@ -4,7 +4,7 @@ date: 2022-06-09T15:33:46+2:00
 weight: 2
 ---
 
-Műhelyünk elhelyezkedése
+<br>
 
 1103 Budapest, Gyömrői út 128 (Telepen belül: 4/10 Ajtó)
 
