@@ -2,15 +2,12 @@ main:
   - name: "Rólunk"
     url: "/about/"
     weight: 2
-  - name: "Újdonságok"
+  - name: "Hírek"
     url: "/services/"
     weight: 3
   - name: "Elérhetőség"
     url: "/contact/"
     weight: 4
-  - name: "Team"
-    url: "/team/"
-    weight: 5
 
 footer:
   - name: "Főoldal"
