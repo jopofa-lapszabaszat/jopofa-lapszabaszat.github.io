@@ -16,7 +16,6 @@ home:
 collections:
   services:
     output: true
-    sort_by: weight
 
 defaults:
   - scope:
