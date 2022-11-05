@@ -1,7 +1,7 @@
 ---
 title: "Műhelyünk elhelyezkedése"
 date: 2022-06-09T15:33:46+2:00
-weight: 2
+weight: 3
 ---
 
 <br>

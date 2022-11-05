@@ -1,7 +1,7 @@
 ---
 title: "Aktuális áraink"
 date: 2022-06-16T12:33:46+2:00
-weight: 1
+weight: 2
 ---
 
 Tekintse meg aktuális árlistánkat
