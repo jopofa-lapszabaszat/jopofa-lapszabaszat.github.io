@@ -5,4 +5,6 @@ weight: 1
 layout: gallery
 ---
 
-Pár fotó munkáinkról. Ha felkeltettük érdeklődését, keressen bennünket bizalommal.
+Pár fotó munkáinkról
+
+Ha felkeltettük érdeklődését, keressen bennünket bizalommal.
