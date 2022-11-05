@@ -1,0 +1,18 @@
+main:
+  - name: "Rólunk"
+    url: "/about/"
+    weight: 2
+  - name: "Hírek"
+    url: "/services/"
+    weight: 3
+  - name: "Elérhetőség"
+    url: "/contact/"
+    weight: 4
+
+footer:
+  - name: "Főoldal"
+    url: "/"
+    weight: 1
+  - name: "Elérhetőség"
+    url: "/contact/"
+    weight: 2
