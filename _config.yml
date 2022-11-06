@@ -11,16 +11,16 @@ logo:
   desktop_width: "32px"
 
 home: 
-  limit_services: 6
+  limit_updates: 6
 
 collections:
-  services:
+  updates:
     output: true
 
 defaults:
   - scope:
       path: ""
-      type: "services"
+      type: "updates"
     values:
       layout: "service"
 

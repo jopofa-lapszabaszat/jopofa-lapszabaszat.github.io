@@ -3,7 +3,7 @@ main:
     url: "/about/"
     weight: 2
   - name: "Hírek"
-    url: "/services/"
+    url: "/updates/"
     weight: 3
   - name: "Elérhetőség"
     url: "/contact/"

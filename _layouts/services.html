@@ -16,15 +16,15 @@ bodyClass: "page-basic"
 
 <div class="container pt-6 pb-6">
   <div class="row">
-    {% assign sortedservices = site.services | sort: 'weight' %}
-    {% for service in sortedservices %}
+    {% assign sortedUpdates = site.updates | sort: 'weight' %}
+    {% for update in sortedUpdates %}
     <div class="col-12 col-md-6 mb-3">
       <div class="service service-summary">
         <div class="service-content">
           <h2 class="service-title">
-            <a href="{{ service.url | relative_url }}">{{ service.title }}</a>
+            <a href="{{ update.url | relative_url }}">{{ update.title }}</a>
           </h2>
-          <p>{{ service.content | markdownify | strip_html | truncate: 100 }}</p>
+          <p>{{ update.content | markdownify | strip_html | truncate: 100 }}</p>
         </div>
       </div>
     </div>
