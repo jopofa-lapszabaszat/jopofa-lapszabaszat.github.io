@@ -12,4 +12,4 @@ show_call_box: true
 
 Cégünk rövid határidővel vállalja minőségi, egyedi bútorok készítését, kedvező áron.
 
-Alapanyarga van szüksége? Vegye igénybe lapszabászati szolgáltatásunkat!
+Alapanyagra van szüksége? Vegye igénybe lapszabászati szolgáltatásunkat!
