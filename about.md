@@ -24,4 +24,4 @@ Szolgáltatásaink:
 - Helyszíni kivitelezés
 
 Üdvözlettel:
-Jópofa Lapszabászat és Bútorasztalos Műhely csapata
+JópoFa Lapszabászat és Bútorasztalos Műhely csapata
