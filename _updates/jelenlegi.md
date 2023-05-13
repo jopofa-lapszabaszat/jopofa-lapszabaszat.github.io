@@ -16,4 +16,6 @@ Jelenlegi szolgáltatásaink a következők:
 - Egyedi bútor és konyha gyártása
 - Helyszíni kivitelezés
 
+Jelenleg 7 napos határidővel vállalunk táblafelosztóinkon történő vágási és előmarós élzárógépes megrendeléseket!
+
 ![](/images/jelenlegi.jpg)
