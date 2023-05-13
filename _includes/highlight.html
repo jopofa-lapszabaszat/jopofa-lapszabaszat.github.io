@@ -1,0 +1,10 @@
+<div class="highlight">
+  <div class="highlight-box-top">
+    <div class="highlight-title">{{ site.data.highlight.title }}</div>
+  </div>
+    {% if include.show_button %}
+      <div class="highlight-box-bottom">
+        <a href="{{ site.data.highlight.highlight_link }}" class="button">Részletek</a>
+      </div>
+    {% endif %}
+</div>
